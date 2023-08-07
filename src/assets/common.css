@@ -1,0 +1,25 @@
+.back-pc {
+    width: 100%;
+    height: 100%;
+    background: url('../assets/imgs/bg.png') no-repeat;
+    background-size: cover;
+}
+body{
+    background: url('../assets/imgs/bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+a {
+   text-decoration: none; 
+  } 
+  
+.v-enter-active,.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+.my-table{
+  overflow-y: calc(40vh-200px);
+  height: 40vh;
+}
